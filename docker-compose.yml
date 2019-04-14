@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  exercism:
+    build: .
+    image: brainpower/ocaml-exercism-cubicle
+    ports:
+      - '8443:8443'
+    volumes:
+      - ".:/repo"
+    entrypoint: /bin/bash
+    command: /code-server.sh
