@@ -7,8 +7,6 @@ WORKDIR /repo
 
 USER opam
 ADD --chown=opam:opam . ./
-RUN . /home/opam/.opam/opam-init/init.sh
 RUN opam install --deps-only -y .
-RUN eval $(opam env)
 
-ADD code-server.sh /
+SHELL ["/bin/bash", "--login" , "-c"]
