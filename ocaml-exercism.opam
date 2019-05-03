@@ -6,4 +6,4 @@ homepage: "https://github.com/brainpower-org/ocaml-exercism-cubicle"
 bug-reports: "https://github.com/brainpower-org/ocaml-exercism-cubicle/issues"
 version: "0.1"
 synopsis: "Work on the OCaml track of exercism in a turn-key environment"
-depends: [ "ocaml" "ocamlfind" "dune" "ounit" "react" "core" "qcheck" ]
+depends: [ "ocaml" "ocamlfind" "dune" "ounit" "react" "core" "qcheck" "utop" "merlin" ]

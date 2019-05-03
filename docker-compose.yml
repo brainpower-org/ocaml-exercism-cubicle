@@ -1,11 +1,19 @@
 version: '3'
 
 services:
-  exercism:
-    build: .
+  ocaml-exercism-server:
+    build:
+      context: .
+      dockerfile: Dockerfile-server
     image: brainpower/ocaml-exercism-cubicle
     ports:
       - '8443:8443'
     volumes:
       - ".:/repo"
     command: code-server --allow-http --no-auth /repo
+
+  ocaml-exercism-remote:
+    build:
+      context: .
+      dockerfile: Dockerfile-server
+    image: brainpower/ocaml-exercism-cubicle:remote

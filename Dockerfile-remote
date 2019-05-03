@@ -1,0 +1,16 @@
+FROM ocaml/opam2:ubuntu
+
+USER root
+
+RUN apt-get update && apt-get install m4 fswatch -y 
+RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /workspaces/ocaml-exercism-cubicle
+RUN chown -R opam:opam /workspaces/ocaml-exercism-cubicle
+WORKDIR /workspaces/ocaml-exercism-cubicle
+
+USER opam
+ADD --chown=opam:opam . ./
+RUN opam install --deps-only -y .
+
+SHELL ["/bin/bash", "--login" , "-c"]
