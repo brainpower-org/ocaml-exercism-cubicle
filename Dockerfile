@@ -1,12 +1,8 @@
-FROM brainpower/ocaml-cubicle
+FROM brainpower/ocaml-cubicle:code-1.939-share-1.0.125 
 
-USER root
-RUN mkdir /repo
-RUN chown -R opam:opam /repo
+ADD . /repo
 WORKDIR /repo
 
-USER opam
-ADD --chown=opam:opam . ./
 RUN opam install --deps-only -y .
 
 SHELL ["/bin/bash", "--login" , "-c"]
