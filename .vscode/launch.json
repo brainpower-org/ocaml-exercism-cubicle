@@ -1,0 +1,577 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "acronym",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/acronym/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/acronym/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "acronym"
+    },
+    {
+      "name": "all-your-base",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/all-your-base/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/all-your-base/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "all-your-base"
+    },
+    {
+      "name": "allergies",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/allergies/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/allergies/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "allergies"
+    },
+    {
+      "name": "anagram",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/anagram/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/anagram/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "anagram"
+    },
+    {
+      "name": "atbash-cipher",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/atbash-cipher/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/atbash-cipher/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "atbash-cipher"
+    },
+    {
+      "name": "beer-song",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/beer-song/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/beer-song/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "beer-song"
+    },
+    {
+      "name": "binary-search",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/binary-search/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/binary-search/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "binary-search"
+    },
+    {
+      "name": "bob",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/bob/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/bob/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "bob"
+    },
+    {
+      "name": "bowling",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/bowling/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/bowling/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "bowling"
+    },
+    {
+      "name": "bracket-push",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/bracket-push/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/bracket-push/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "bracket-push"
+    },
+    {
+      "name": "change",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/change/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/change/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "change"
+    },
+    {
+      "name": "connect",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/connect/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/connect/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "connect"
+    },
+    {
+      "name": "custom-set",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/custom-set/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/custom-set/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "custom-set"
+    },
+    {
+      "name": "difference-of-squares",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/difference-of-squares/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/difference-of-squares/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "difference-of-squares"
+    },
+    {
+      "name": "dominoes",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/dominoes/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/dominoes/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "dominoes"
+    },
+    {
+      "name": "etl",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/etl/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/etl/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "etl"
+    },
+    {
+      "name": "forth",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/forth/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/forth/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "forth"
+    },
+    {
+      "name": "grade-school",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/grade-school/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/grade-school/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "grade-school"
+    },
+    {
+      "name": "hamming",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/hamming/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/hamming/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "hamming"
+    },
+    {
+      "name": "hangman",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/hangman/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/hangman/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "hangman"
+    },
+    {
+      "name": "hello-world",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/hello-world/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/hello-world/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "hello-world"
+    },
+    {
+      "name": "hexadecimal",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/hexadecimal/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/hexadecimal/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "hexadecimal"
+    },
+    {
+      "name": "leap",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/leap/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/leap/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "leap"
+    },
+    {
+      "name": "list-ops",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/list-ops/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/list-ops/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "list-ops"
+    },
+    {
+      "name": "luhn",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/luhn/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/luhn/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "luhn"
+    },
+    {
+      "name": "meetup",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/meetup/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/meetup/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "meetup"
+    },
+    {
+      "name": "minesweeper",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/minesweeper/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/minesweeper/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "minesweeper"
+    },
+    {
+      "name": "nucleotide-count",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/nucleotide-count/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/nucleotide-count/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "nucleotide-count"
+    },
+    {
+      "name": "palindrome-products",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/palindrome-products/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/palindrome-products/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "palindrome-products"
+    },
+    {
+      "name": "pangram",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/pangram/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/pangram/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "pangram"
+    },
+    {
+      "name": "phone-number",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/phone-number/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/phone-number/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "phone-number"
+    },
+    {
+      "name": "prime-factors",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/prime-factors/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/prime-factors/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "prime-factors"
+    },
+    {
+      "name": "raindrops",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/raindrops/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/raindrops/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "raindrops"
+    },
+    {
+      "name": "react",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/react/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/react/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "react"
+    },
+    {
+      "name": "rectangles",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/rectangles/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/rectangles/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "rectangles"
+    },
+    {
+      "name": "rna-transcription",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/rna-transcription/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/rna-transcription/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "rna-transcription"
+    },
+    {
+      "name": "robot-name",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/robot-name/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/robot-name/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "robot-name"
+    },
+    {
+      "name": "roman-numerals",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/roman-numerals/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/roman-numerals/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "roman-numerals"
+    },
+    {
+      "name": "run-length-encoding",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/run-length-encoding/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/run-length-encoding/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "run-length-encoding"
+    },
+    {
+      "name": "say",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/say/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/say/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "say"
+    },
+    {
+      "name": "space-age",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/space-age/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/space-age/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "space-age"
+    },
+    {
+      "name": "triangle",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/triangle/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/triangle/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "triangle"
+    },
+    {
+      "name": "word-count",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/word-count/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/word-count/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "word-count"
+    },
+    {
+      "name": "zipper",
+      "type": "ocaml-debugger",
+      "request": "launch",
+      "program": "${workspaceRoot}/_build/default/exercises/zipper/test.bc",
+      "console": "internalConsole",
+      "dotMerlins": [
+        "${workspaceRoot}/exercises/zipper/.merlin"
+      ],
+      "noDebug": false,
+      "stopOnEntry": false,
+      "preLaunchTask": "zipper"
+    }
+  ]
+}

@@ -1,0 +1,753 @@
+{
+  "version": "0.2.0",
+  "tasks": [
+    {
+      "label": "acronym",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/acronym"
+      }
+    },
+    {
+      "label": "all-your-base",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/all-your-base"
+      }
+    },
+    {
+      "label": "allergies",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/allergies"
+      }
+    },
+    {
+      "label": "anagram",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/anagram"
+      }
+    },
+    {
+      "label": "atbash-cipher",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/atbash-cipher"
+      }
+    },
+    {
+      "label": "beer-song",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/beer-song"
+      }
+    },
+    {
+      "label": "binary-search",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/binary-search"
+      }
+    },
+    {
+      "label": "bob",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/bob"
+      }
+    },
+    {
+      "label": "bowling",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/bowling"
+      }
+    },
+    {
+      "label": "bracket-push",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/bracket-push"
+      }
+    },
+    {
+      "label": "change",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/change"
+      }
+    },
+    {
+      "label": "connect",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/connect"
+      }
+    },
+    {
+      "label": "custom-set",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/custom-set"
+      }
+    },
+    {
+      "label": "difference-of-squares",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/difference-of-squares"
+      }
+    },
+    {
+      "label": "dominoes",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/dominoes"
+      }
+    },
+    {
+      "label": "etl",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/etl"
+      }
+    },
+    {
+      "label": "forth",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/forth"
+      }
+    },
+    {
+      "label": "grade-school",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/grade-school"
+      }
+    },
+    {
+      "label": "hamming",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/hamming"
+      }
+    },
+    {
+      "label": "hangman",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/hangman"
+      }
+    },
+    {
+      "label": "hello-world",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/hello-world"
+      }
+    },
+    {
+      "label": "hexadecimal",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/hexadecimal"
+      }
+    },
+    {
+      "label": "leap",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/leap"
+      }
+    },
+    {
+      "label": "list-ops",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/list-ops"
+      }
+    },
+    {
+      "label": "luhn",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/luhn"
+      }
+    },
+    {
+      "label": "meetup",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/meetup"
+      }
+    },
+    {
+      "label": "minesweeper",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/minesweeper"
+      }
+    },
+    {
+      "label": "nucleotide-count",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/nucleotide-count"
+      }
+    },
+    {
+      "label": "palindrome-products",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/palindrome-products"
+      }
+    },
+    {
+      "label": "pangram",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/pangram"
+      }
+    },
+    {
+      "label": "phone-number",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/phone-number"
+      }
+    },
+    {
+      "label": "prime-factors",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/prime-factors"
+      }
+    },
+    {
+      "label": "raindrops",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/raindrops"
+      }
+    },
+    {
+      "label": "react",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/react"
+      }
+    },
+    {
+      "label": "rectangles",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/rectangles"
+      }
+    },
+    {
+      "label": "rna-transcription",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/rna-transcription"
+      }
+    },
+    {
+      "label": "robot-name",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/robot-name"
+      }
+    },
+    {
+      "label": "roman-numerals",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/roman-numerals"
+      }
+    },
+    {
+      "label": "run-length-encoding",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/run-length-encoding"
+      }
+    },
+    {
+      "label": "say",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/say"
+      }
+    },
+    {
+      "label": "space-age",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/space-age"
+      }
+    },
+    {
+      "label": "triangle",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/triangle"
+      }
+    },
+    {
+      "label": "word-count",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/word-count"
+      }
+    },
+    {
+      "label": "zipper",
+      "type": "shell",
+      "command": "dune",
+      "args": [
+        "build",
+        "test.bc",
+        "--profile=release"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "options": {
+        "cwd": "exercises/zipper"
+      }
+    }
+  ]
+}

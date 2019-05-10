@@ -5,4 +5,3 @@ WORKDIR /repo
 
 RUN opam install --deps-only -y .
 
-SHELL ["/bin/bash", "--login" , "-c"]
