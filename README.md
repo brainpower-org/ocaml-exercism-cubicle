@@ -31,7 +31,7 @@ dune runtests --watch
 - [x] hello-world  - 1
 - [x] leap  - 1
 - [x] hamming  - 2
-- [ ] raindrops  - 2
+- [x] raindrops  - 2
 - [ ] difference-of-squares  - 2
 - [ ] rna-transcription  - 2
 - [ ] nucleotide-count  - 2
