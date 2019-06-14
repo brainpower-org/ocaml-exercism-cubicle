@@ -28,9 +28,9 @@ dune runtests --watch
 
 ## Exercises
 
-- [ ] hello-world  - 1
-- [ ] leap  - 1
-- [ ] hamming  - 2
+- [x] hello-world  - 1
+- [x] leap  - 1
+- [x] hamming  - 2
 - [ ] raindrops  - 2
 - [ ] difference-of-squares  - 2
 - [ ] rna-transcription  - 2

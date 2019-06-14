@@ -20,14 +20,17 @@ let aep exp got =
 
 let tests = [
     "initially 9 failures are allowed">::(fun _ ->
+        skip_if true "Skipped";
         let hm = create "foo" in
         aep (Busy 9) (S.value (progress hm))
     );
     "initially no letters are guessed">::(fun _ ->
+        skip_if true "Skipped";
         let hm = create "foo" in
         aes "___" (S.value (masked_word hm))
     );
     "after 10 failures the game is over">::(fun _ ->
+        skip_if true "Skipped";
         let hm = create "foo" in
         begin
             for i = 1 to 9 do
@@ -39,6 +42,7 @@ let tests = [
         end;
     );
     "feeding a correct letter removes underscores">::(fun _ ->
+        skip_if true "Skipped";
         let hm = create "foobar" in
         begin
             feed 'b' hm;
@@ -50,6 +54,7 @@ let tests = [
         end;
     );
     "feeding a correct letter twice counts as a failure">::(fun _ ->
+        skip_if true "Skipped";
         let hm = create "foobar" in
         begin
             feed 'b' hm;
@@ -61,6 +66,7 @@ let tests = [
         end;
     );
     "getting all the letters right makes for a win">::(fun _ ->
+        skip_if true "Skipped";
         let hm = create "hello" in
         begin
             feed 'b' hm;

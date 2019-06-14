@@ -12,5 +12,5 @@ jobs:
           name: Sync
           command: cp -r /checkout/. /exercism/ocaml
       - run:
-          name: Test hello-world
-          command: cd hello-world && dune runtest
+          name: Test
+          command: dune runtest
