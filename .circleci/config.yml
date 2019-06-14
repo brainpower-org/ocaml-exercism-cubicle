@@ -10,7 +10,7 @@ jobs:
           path: ~/checkout
       - run:
           name: Sync
-          command: sudo cp -rf ~/checkout/* /repo/ && sudo chown -R opam:opam /repo
+          command: cp -rf ~/checkout/* /repo/ && chown -R opam:opam /repo
       - run:
           name: Test hello-world
           command: source ~/.profile && cd exercises/hello-world && dune runtest
