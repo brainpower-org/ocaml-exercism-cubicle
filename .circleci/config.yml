@@ -13,4 +13,4 @@ jobs:
           command: cp -r /checkout/. /repo/
       - run:
           name: Test hello-world
-          command: cd exercises/hello-world && dune runtest
+          command: cd hello-world && dune runtest
