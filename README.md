@@ -19,18 +19,10 @@ docker-compose up
 
 # Work on an exercise
 
-* Add to `.circleci/config.yml`:
-
-```diff
-+      - run:
-+          name: Test hello-world
-+          command: source ~/.profile && cd exercises/hello-world && dune runtest
-```
-
-* Run tests
-
 ```sh
-cd exercises/hello-world
+exercism configure -t=[your-token] -w=/exercism
+dl hello-world
+cd hello-world
 dune runtests --watch
 ```
 

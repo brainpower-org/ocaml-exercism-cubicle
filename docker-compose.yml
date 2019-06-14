@@ -7,8 +7,9 @@ services:
     ports:
       - '8443:8443'
     volumes:
-      - ".:/repo"
+      - ".:/exercism/ocaml"
       - "$SSH_AUTH_SOCK:/ssh-agent"
     environment:
       SSH_AUTH_SOCK: /ssh-agent
-    command: code-server --allow-http --no-auth /repo
+    working_dir: /exercism/ocaml
+    command: code-server --allow-http --no-auth

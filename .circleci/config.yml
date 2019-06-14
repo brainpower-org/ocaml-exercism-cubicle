@@ -4,13 +4,13 @@ jobs:
   build:
     docker:
       - image: brainpower/ocaml-exercism-cubicle
-    working_directory: /repo
+    working_directory: /exercism/ocaml
     steps:
       - checkout:
-          path: ~/checkout
+          path: /checkout
       - run:
           name: Sync
-          command: cp -rf ~/checkout/* /repo/
+          command: cp -r /checkout/. /repo/
       - run:
           name: Test hello-world
-          command: source ~/.profile && cd exercises/hello-world && dune runtest
+          command: cd exercises/hello-world && dune runtest

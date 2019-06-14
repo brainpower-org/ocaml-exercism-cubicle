@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+const ChildProcess = require('child_process');
+const id = process.argv[2];
+
+if (typeof id !== 'string') {
+  console.log('Usage: dl <id>\nExample: dl hello-world');
+  process.exit(1);
+}
+
+ChildProcess.spawnSync('exercism', ['download', '--track', 'ocaml', '--exercise', id], { stdio: 'inherit' });
+
+
