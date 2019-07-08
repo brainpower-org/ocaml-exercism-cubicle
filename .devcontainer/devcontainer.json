@@ -1,0 +1,15 @@
+{
+    "name": "ocaml-exercism-dev",
+    "dockerComposeFile": ["../docker-compose.yml", "./docker-compose.yml"],
+    "service": "exercism",
+    "workspaceFolder": "/exercism/ocaml",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "freebroccolo.reasonml",
+        "maelvalais.dune",
+        "hackwaly.ocaml-debugger",
+        "editorconfig.editorconfig",
+        "ms-vsliveshare.vsliveshare-pack",
+        "ms-azuretools.vscode-docker"
+    ]
+}
